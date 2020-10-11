@@ -13,6 +13,7 @@ namespace src.scripts.services.character.arisa.action
         private static readonly int Dive = Animator.StringToHash("dive");
         private static readonly int Crouch = Animator.StringToHash("crouch");
         private static readonly int Idle = Animator.StringToHash("idle");
+        private static readonly int Pick = Animator.StringToHash("pick");
 
         public void onTriggerState(Collider collider, Image hp, GameObject gameObject, GameObject ragdoll)
         {
@@ -52,6 +53,12 @@ namespace src.scripts.services.character.arisa.action
         public void doIdle(Animator animator)
         {
             animator.SetTrigger(Idle);
+        }
+
+        public void doPick(Animator animator)
+        {
+            animator.SetTrigger(Pick);
+
         }
     }
 }

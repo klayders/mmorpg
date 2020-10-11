@@ -18,6 +18,9 @@ public class AnimationState : MonoBehaviour
     private CharacterMove characterMove;
     private AnimatorAction animatorAction;
 
+    public Text HPBottleText;
+    public float HPBottle;
+
     [Inject]
     public void Setup(CharacterMove characterMove, AnimatorAction animatorAction)
     {
@@ -38,6 +41,19 @@ public class AnimationState : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        HPBottleText.text = "" + HPBottle;
+
+        if (Input.GetKeyDown(KeyCode.E) && HPBottle > 0 && HP.fillAmount < 1f)
+        {
+            HP.fillAmount += 0.45f;
+            HPBottle -= 1;
+        }
+
+        if (HP.fillAmount > 1f)
+        {
+            HP.fillAmount = 1f;
+        }
 
         if (Input.GetKeyDown(KeyCode.LeftControl))
         {
@@ -102,6 +118,12 @@ public class AnimationState : MonoBehaviour
                 var currentTransform = transform;
                 Instantiate(ragdoll, currentTransform.position, currentTransform.rotation);
             }
+        }
+
+        if (other.CompareTag("HPBottle") && Input.GetKeyDown(KeyCode.F))
+        {
+            HPBottle = HPBottle + 1f;
+            animatorAction.doPick(animator);
         }
     }
 

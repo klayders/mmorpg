@@ -1,8 +1,310 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b7a5e660-b489-44ac-8e71-77c6b070402a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/src/scripts/model.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.mmorpg/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.mmorpg/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.mmorpg/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.mmorpg/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/1-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/1-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/10-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/10-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/100-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/100-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/101-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/101-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/102-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/102-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/103-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/103-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/104-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/104-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/105-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/105-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/106-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/106-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/107-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/107-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/108-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/108-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/109-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/109-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/11-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/11-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/110-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/110-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/111-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/111-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/112-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/112-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/113-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/113-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/114-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/114-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/115-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/115-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/116-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/116-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/117-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/117-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/118-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/118-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/119-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/119-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/12-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/12-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/120-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/120-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/121-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/121-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/122-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/122-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/123-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/123-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/124-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/124-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/125-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/125-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/126-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/126-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/127-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/127-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/128-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/128-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/129-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/129-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/13-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/13-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/130-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/130-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/131-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/131-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/132-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/132-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/133-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/133-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/134-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/134-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/135-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/135-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/136-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/136-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/137-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/137-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/138-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/138-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/139-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/139-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/14-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/14-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/15-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/15-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/16-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/16-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/17-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/17-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/18-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/18-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/19-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/19-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/2-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/2-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/20-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/20-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/21-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/21-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/22-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/22-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/23-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/23-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/24-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/24-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/25-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/25-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/26-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/26-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/27-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/27-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/28-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/28-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/29-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/29-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/3-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/3-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/30-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/30-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/31-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/31-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/32-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/32-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/33-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/33-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/34-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/34-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/35-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/35-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/36-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/36-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/37-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/37-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/38-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/38-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/39-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/39-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/4-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/4-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/40-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/40-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/41-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/41-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/42-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/42-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/43-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/43-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/44-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/44-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/45-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/45-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/46-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/46-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/47-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/47-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/48-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/48-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/49-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/49-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/5-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/5-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/50-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/50-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/51-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/51-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/52-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/52-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/53-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/53-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/54-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/54-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/55-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/55-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/56-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/56-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/57-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/57-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/58-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/58-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/59-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/59-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/6-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/6-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/60-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/60-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/61-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/61-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/62-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/62-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/63-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/63-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/64-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/64-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/65-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/65-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/66-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/66-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/67-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/67-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/68-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/68-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/69-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/69-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/7-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/7-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/70-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/70-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/71-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/71-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/72-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/72-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/73-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/73-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/74-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/74-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/75-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/75-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/76-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/76-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/77-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/77-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/78-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/78-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/79-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/79-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/8-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/8-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/80-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/80-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/81-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/81-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/82-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/82-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/83-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/83-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/84-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/84-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/85-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/85-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/86-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/86-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/87-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/87-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/88-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/88-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/89-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/89-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/9-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/9-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/90-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/90-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/91-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/91-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/92-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/92-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/93-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/93-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/94-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/94-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/95-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/95-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/96-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/96-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/97-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/97-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/98-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/98-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/99-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/model/ICON/99-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/scripts/services/character/arisa/AnimationState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/scripts/services/character/arisa/AnimationState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/scripts/services/character/arisa/action/AnimatorAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/scripts/services/character/arisa/action/AnimatorAction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/scripts/services/character/arisa/action/AnimatorActionImpl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/scripts/services/character/arisa/action/AnimatorActionImpl.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +313,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/src/scripts/config/ProjectInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/src/scripts/model/Bottle.cs" />
+        <option value="$PROJECT_DIR$/Assets/src/scripts/services/character/arisa/AnimationState.cs" />
+        <option value="$PROJECT_DIR$/Assets/src/scripts/services/character/arisa/action/AnimatorAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/src/scripts/services/character/arisa/action/AnimatorActionImpl.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1ii9uG9AYLyX9DJjffwSoBrTcbz" />
   <component name="ProjectViewState">
@@ -21,6 +334,12 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -52,12 +371,33 @@
       <option name="presentableId" value="Default" />
       <updated>1602379768078</updated>
       <workItem from="1602379771975" duration="42000" />
+      <workItem from="1602381851236" duration="3072000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="794" y="236" key="RiderGenerateDialog" timestamp="1602383685543">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="236" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602383685543" />
   </component>
 </project>

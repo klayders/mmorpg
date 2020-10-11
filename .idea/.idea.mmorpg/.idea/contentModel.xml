@@ -940,6 +940,9 @@
               <e p="ProjectInstaller.cs" t="Include" />
               <e p="SocketConfiguration.cs" t="Include" />
             </e>
+            <e p="model" t="Include">
+              <e p="Bottle.cs" t="Include" />
+            </e>
             <e p="services" t="Include">
               <e p="character" t="Include">
                 <e p="arisa" t="Include">
