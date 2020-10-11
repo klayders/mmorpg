@@ -963,6 +963,9 @@
                 <e p="SocketSender.cs" t="Include" />
               </e>
             </e>
+            <e p="skill" t="Include">
+              <e p="GlobalSkill.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="utils" t="Include">

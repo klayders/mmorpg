@@ -15,5 +15,6 @@ namespace src.scripts.services.character.arisa.action
         void doCrouch(Animator animator);
         void doIdle(Animator animator);
         void doPick(Animator animator);
+        void doDrink(Animator animator);
     }
 }

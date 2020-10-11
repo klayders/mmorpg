@@ -10,7 +10,13 @@ public class AnimationState : MonoBehaviour
     public float speedMove;
     public GameObject ragdoll;
     public Image HP;
+    public Image Enrgy;
+    public Text HPBottleText;
+    public float HPBottle;
 
+    public GameObject skill1;
+
+    public float collDown;
 
     private CharacterController characterController;
     private Animator animator;
@@ -18,8 +24,6 @@ public class AnimationState : MonoBehaviour
     private CharacterMove characterMove;
     private AnimatorAction animatorAction;
 
-    public Text HPBottleText;
-    public float HPBottle;
 
     [Inject]
     public void Setup(CharacterMove characterMove, AnimatorAction animatorAction)
@@ -31,7 +35,8 @@ public class AnimationState : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        HP.fillAmount = 0.1f;
+        HP.fillAmount = 0.7f;
+        Enrgy.fillAmount = 0.7f;
 
         animator = gameObject.GetComponent<Animator>();
         characterController = GetComponent<CharacterController>();
@@ -41,6 +46,26 @@ public class AnimationState : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        collDown -= Time.deltaTime;
+        Enrgy.fillAmount += Time.deltaTime / 50f;
+
+        if (HP.fillAmount > 1f)
+        {
+            HP.fillAmount = 1f;
+        }
+
+        if (Enrgy.fillAmount > 1f)
+        {
+            Enrgy.fillAmount = 1f;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha1) && collDown < 0 && Enrgy.fillAmount > 0.3f)
+        {
+            var currentTransform = transform;
+            Instantiate(skill1, currentTransform.position, currentTransform.rotation);
+            collDown = 2f;
+            Enrgy.fillAmount -= 0.3f;
+        }
 
         HPBottleText.text = "" + HPBottle;
 
@@ -48,27 +73,25 @@ public class AnimationState : MonoBehaviour
         {
             HP.fillAmount += 0.45f;
             HPBottle -= 1;
+            animatorAction.doDrink(animator);
         }
 
-        if (HP.fillAmount > 1f)
-        {
-            HP.fillAmount = 1f;
-        }
 
         if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             animatorAction.doCrouch(animator);
         }
+
         if (Input.GetKeyUp(KeyCode.LeftControl))
         {
             animatorAction.doIdle(animator);
         }
-        
+
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             animatorAction.doAttack(animator);
         }
-        
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             animatorAction.doJump(animator);
@@ -101,7 +124,6 @@ public class AnimationState : MonoBehaviour
 
         characterMove.move(characterController, speedMove);
         animatorAction.doMove(animator);
-
     }
 
     void OnTriggerStay(Collider other)
@@ -109,7 +131,7 @@ public class AnimationState : MonoBehaviour
         // animatorAction.onTriggerState(other, HP, gameObject, ragdoll);
         if (other.CompareTag("Dead"))
         {
-            HP.fillAmount -= Time.deltaTime/10f;
+            HP.fillAmount -= Time.deltaTime / 10f;
 
             if (HP.fillAmount <= 0)
             {
@@ -129,7 +151,6 @@ public class AnimationState : MonoBehaviour
 
     void FixedUpdate()
     {
-
         // if (socketConfiguration is null)
         // {
         //     Debug.LogError("SOCKET NOT STARTED");
